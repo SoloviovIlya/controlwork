@@ -15,3 +15,7 @@ for (int i=0; i<5; i++)
         j++;
     }
 }
+for (int i=0; i<st1.Length; i++)
+{
+    Console.WriteLine(st1[i]);
+}
