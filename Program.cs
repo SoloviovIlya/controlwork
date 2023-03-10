@@ -15,7 +15,9 @@ for (int i=0; i<5; i++)
         j++;
     }
 }
-for (int i=0; i<st1.Length; i++)
+string[] st2 = new string[j];
+for (int i=0; i<j; i++)
 {
-    Console.WriteLine(st1[i]);
+    st2[i] = st1[i];
+    Console.WriteLine(st2[i]);
 }
